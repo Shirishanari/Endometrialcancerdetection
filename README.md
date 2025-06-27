@@ -1,11 +1,11 @@
 # Endometrialcancerdetection
-# 🔬 AI-Powered Endometrial Cancer Detection System
+# AI-Powered Endometrial Cancer Detection System
 
 **Keywords:** Endometrial Carcinoma, Generative AI, Machine Learning, Large Vision-Language Models (LVLMs), Medical Imaging Analysis
 
 ---
 
-## 📖 Introduction
+##  Introduction
 
 Endometrial cancer is one of the most common gynecological cancers, primarily affecting women after menarche, especially during the postmenopausal stage. According to the **World Health Organization**, over **382,000 new cases** are diagnosed every year, with approximately **90,000 deaths** attributed to the disease. It is currently ranked **sixth** among all cancers globally.
 
@@ -15,11 +15,11 @@ This project proposes an **AI-enabled diagnostic framework** that integrates cut
 
 ---
 
-## 🧠 System Overview
+##  System Overview
 
 Our intelligent diagnostic pipeline brings together powerful deep learning and vision-language models for superior medical image analysis.
 
-### ✅ Core Components
+### Core Components
 
 - **CLIP (Contrastive Language-Image Pretraining):** Extracts high-dimensional feature embeddings from endometrial images.
 - **SVM (Support Vector Machine):** Performs robust classification based on CLIP-extracted features.
@@ -29,7 +29,7 @@ Our intelligent diagnostic pipeline brings together powerful deep learning and v
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 
 1. **Image Upload**  
    The user uploads an endometrial ultrasound or histopathological image via the Streamlit UI.
@@ -42,29 +42,29 @@ Our intelligent diagnostic pipeline brings together powerful deep learning and v
    - SVM processes CLIP embeddings.
    - Ensemble combines CNN and SVM predictions.
 
-4. **Report Generation**  
+4. **Report Generation** 
    The system generates a diagnostic report including:
    - Predicted condition (e.g., adenocarcinoma, hyperplasia, polyps)
    - Severity level
    - Clinical description and recommended medical actions
 
-5. **Interpretability**  
+5. **Interpretability **
    LVLMs enhance the explanation of results by aligning textual and visual data, providing trustworthy and understandable insights for clinicians.
 
 ---
 
-## 🖥️ Features
+##  Features
 
-- 📂 Simple drag-and-drop image upload
-- 🧠 Advanced feature extraction using CLIP
-- 🔍 Dual-model diagnosis (CNN + SVM ensemble)
-- 📊 Detailed diagnostic report with severity and medical guidance
-- 🗣️ Interpretable results powered by Vision-Language AI
-- 🌐 Web-based app built using Streamlit
+-  Simple drag-and-drop image upload
+-  Advanced feature extraction using CLIP
+-  Dual-model diagnosis (CNN + SVM ensemble)
+-  Detailed diagnostic report with severity and medical guidance
+-  Interpretable results powered by Vision-Language AI
+-  Web-based app built using Streamlit
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 - Python ≥ 3.6.5  
 - TensorFlow ≥ 1.2.0  
@@ -75,22 +75,22 @@ Our intelligent diagnostic pipeline brings together powerful deep learning and v
 
 ---
 
-## 🧬 Motivation
+##  Motivation
 
 While symptoms like abnormal uterine bleeding provide early clues, traditional clinical evaluations and imaging techniques often fail to detect subtle patterns. This system addresses such limitations by using **AI to identify hidden insights**, aiding **earlier, faster, and more accurate diagnoses**, and ultimately improving patient outcomes.
 
 ---
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
-- 🏥 Integration with hospital EMR systems  
-- 🔐 Privacy-preserving diagnosis using federated learning  
-- 🧪 Expansion to classify more gynecological cancer types  
-- 📱 Mobile deployment for rural diagnostics  
+-  Integration with hospital EMR systems  
+-  Privacy-preserving diagnosis using federated learning  
+-  Expansion to classify more gynecological cancer types  
+-  Mobile deployment for rural diagnostics  
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use this system, dataset, or methodology in your work, please cite:
 
@@ -101,7 +101,7 @@ _IEEE Journal of Biomedical and Health Informatics_, 2020, 24(6): 1664–1676.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For feedback, questions, or collaboration opportunities, please open an issue or reach out via email.
 
